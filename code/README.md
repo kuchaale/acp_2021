@@ -1,8 +1,5 @@
-[![Python 3.7](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-369/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+```bash 
+sed -n '13619,15335p;15335q' log_opendap_MERRA2.txt  | parallel -j 1 python opendap_MERRA2_download_per_station_bash.py :::: &> log_opendap_MERRA2_new.txt
+```
 
-# acp_2021
-**Kuchar, A. et al**
-
-Code for the paper submitted to ?
 
