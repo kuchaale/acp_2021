@@ -1,4 +1,6 @@
-# How to run download scripts
+# How to run...
+
+## ...download scripts
 ```bash 
 python opendap_MERRA2_download_per_station.py &> log_opendap_MERRA2.txt
 ```
